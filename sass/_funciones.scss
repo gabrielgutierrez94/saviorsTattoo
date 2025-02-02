@@ -1,8 +1,24 @@
 @mixin titulos() {
-    color: #000000;
+    color: $colorSecundario;
     font-size: 50px;
     text-align:center;
-    text-transform: uppercase;
-    font-family: 'Maharlika', sans-serif;
+    text-transform:uppercase;
+    font-family:'Maharlika', sans-serif;
 }
 
+@mixin subtitulos() {
+    color: $colorSecundario;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Noto Serif', sans-serif;
+}
+
+@mixin parrafos() {
+    color: $colorSecundario;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+    

@@ -1,0 +1,14 @@
+h1{
+    @include titulos();
+}
+
+h2{
+    @include subtitulos();
+}
+
+p {
+    color: $colorSecundario;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
