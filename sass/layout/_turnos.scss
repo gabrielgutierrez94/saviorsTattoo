@@ -1,0 +1,44 @@
+.formContainer {
+    position: relative;
+    width: 950px;
+    height:600px;
+    margin: 20px auto;
+    padding: 10px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    
+    form {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        width: 800px;
+        height: 700px;
+        margin: 50px;
+        padding-block-end: 250px;
+
+        form label {
+            align-content: center;
+        }
+        form input {
+            padding: 15px;
+        }
+        form select {
+            padding: 15px;
+        }
+        input:focus {
+            background-color: $bgColor;
+            color: #E51B88;
+        }
+        select:focus {
+            background-color: $bgColor;
+            color: $primaryColor;
+        }
+    }
+.paperContainer {
+    display: flex;
+    width: 950px;
+    height: 600px;
+}
+    
+}

@@ -1,0 +1,46 @@
+.titulosPaginas {
+    padding: 50px;
+}
+
+.cardContainer {
+    position: relative;
+    display: block;
+    justify-content: center;
+    justify-self: center;
+    height: 1000px;
+    width: 800px;
+    margin: 50px;
+    background-color:#E51B88;
+    
+    .careCards {
+        display: flex;
+        justify-content: space-around;
+        height: 333px;
+        width: 800px;
+
+        .paperCard {
+            display: flex;
+            height: 333px;
+            width: 800px;
+        }
+        .cardText {
+            position: absolute;
+            margin-top: 10%;
+            font-size: 30px;
+            padding: 10px;
+        }
+    }
+
+    .careHand {
+        display: flex;
+        justify-content: center;
+        padding-block: 50px;
+        margin-inline: 620px;
+    }
+}
+
+
+
+
+
+

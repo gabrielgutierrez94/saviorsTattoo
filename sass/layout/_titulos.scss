@@ -1,0 +1,35 @@
+h1 {
+    color: #000000;
+    font-size: 50px;
+    text-align:center;
+    text-transform: uppercase;
+    font-family: 'Maharlika', sans-serif;
+}
+
+h2{
+    color: #000000;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Noto Serif', sans-serif;
+}
+
+.titulosPaginas {
+    padding: 50px;
+}
+
+#backHome {
+    display: flex;
+    color: #000000;
+    font-size: 30px;
+    text-decoration: underline;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+#backHome:hover {
+    text-shadow: 0 0 50px white;
+    color:white;
+}

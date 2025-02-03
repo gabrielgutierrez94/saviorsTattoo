@@ -1,0 +1,43 @@
+footer {
+    background-color: $bgColor;    
+}
+
+.subtituloFooter {
+    display: flex;
+    color: $primaryColor;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Maharlika', sans-serif;
+    padding: 20px;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+        .contactList1 {
+            display: flex;
+            text-transform: uppercase; 
+            color: $primaryColor;
+            padding: 20px;
+        }
+        .contactList2 {
+            display: flex;
+            color: $textColor2;
+            padding: 20px;
+        }
+        .igLink {
+            text-decoration: none;
+            Color: $textColor2;
+        }
+        .list {
+            list-style: none;
+        }
+}
+
+#copySaviors {
+    text-align: right;
+    font-size: 20px;
+    color: #E51B88;
+}

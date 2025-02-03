@@ -1,0 +1,40 @@
+header {
+    background-color: black;
+}
+
+.pagesHeader {
+    display: flex;
+    color: $primaryColor;
+    border-radius: 10px;
+    padding: 10px 20px;
+    justify-content: right;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    gap: 25px;
+
+        .pagesTag:hover {
+            color: $secondaryColor;
+            text-shadow: 0 0 40px $colorShadow;
+        }
+        .pagesTag:visited {
+            color:$secondaryColor;
+        }
+        .pagesTag:active {
+            color: $colorTag;
+            text-shadow: $colorShadow;
+        } 
+}
+
+.logoPrincipal {
+    display: flex;
+    height: 350px;
+    width: 900px;
+    justify-content: center;
+    margin-inline: 310px;
+}
+
+.logoHeader {
+    display: flex;
+    float: left;    
+}
