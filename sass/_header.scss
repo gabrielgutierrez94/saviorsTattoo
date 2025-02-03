@@ -1,3 +1,57 @@
+$primaryColor: #3498db;
+$secondaryColor: #2ecc71;
+$colorShadow: rgba(0, 0, 0, 0.5);
+$colorTag: #e74c3c; // Define the $colorTag variable
+
 header {
-    background-color: #000000;
+    background-color: black;
+}
+
+@mixin subtitulos($weight) {
+    font-weight: $weight;
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+h2{
+    @include subtitulos(600);
+}
+
+.pagesHeader {
+    display: flex;
+    color: $primaryColor;
+    border-radius: 10px;
+    padding: 10px 20px;
+    justify-content: right;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    gap: 25px;
+}
+
+.pagesTag:hover {
+    color: $secondaryColor;
+    text-shadow: 0 0 40px $colorShadow;
+}
+
+.pagesTag:visited {
+    color:$secondaryColor;
+}
+
+.pagesTag:active {
+    color: $colorTag;
+    text-shadow: $colorShadow;
+}
+
+.logoPrincipal {
+    display: flex;
+    height: 350px;
+    width: 900px;
+    justify-content: center;
+    margin-inline: 310px;
+}
+
+.logoHeader {
+    display: flex;
+    float: left;    
 }

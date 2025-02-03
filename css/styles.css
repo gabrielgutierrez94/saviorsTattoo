@@ -1,18 +1,83 @@
-/* Error: Undefined mixin.
- *   ,
- * 2 |     @include titulos();
- *   |     ^^^^^^^^^^^^^^^^^^
- *   '
- *   sass\_home.scss 2:5   @use
- *   sass\styles.scss 5:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a   \2577 \a 2 \2502      @include titulos();\d\a   \2502      ^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\_home.scss 2:5   @use\a   sass\\styles.scss 5:1  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+img, svg, video {
+  max-width: 100%;
+  display: inline-block;
+}
+
+img {
+  width: 290px;
+}
+
+header {
+  background-color: black;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+.pagesHeader {
+  display: flex;
+  color: #3498db;
+  border-radius: 10px;
+  padding: 10px 20px;
+  justify-content: right;
+  font-family: "Noto Serif", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  gap: 25px;
+}
+
+.pagesTag:hover {
+  color: #2ecc71;
+  text-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.pagesTag:visited {
+  color: #2ecc71;
+}
+
+.pagesTag:active {
+  color: #e74c3c;
+  text-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.logoPrincipal {
+  display: flex;
+  height: 350px;
+  width: 900px;
+  justify-content: center;
+  margin-inline: 310px;
+}
+
+.logoHeader {
+  display: flex;
+  float: left;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Maharlika", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
