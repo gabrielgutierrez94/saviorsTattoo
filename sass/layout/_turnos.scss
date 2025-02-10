@@ -27,12 +27,12 @@
             padding: 15px;
         }
         input:focus {
-            background-color: $bgColor;
+            background-color: $bg-color;
             color: #E51B88;
         }
         select:focus {
-            background-color: $bgColor;
-            color: $primaryColor;
+            background-color: $bg-color;
+            color: $primary-color;
         }
     }
 .paperContainer {

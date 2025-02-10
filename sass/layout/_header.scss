@@ -1,6 +1,6 @@
 .pagesHeader {
     display: flex;
-    color: $primaryColor;
+    color: $primary-color;
     border-radius: 10px;
     padding: 10px 20px;
     justify-content: right;
@@ -10,15 +10,15 @@
     gap: 25px;
 
         .pagesTag:hover {
-            color: $secondaryColor;
-            text-shadow: 0 0 40px $colorShadow;
+            color: $secondary-color;
+            text-shadow: 0 0 40px $color-shadow;
         }
         .pagesTag:visited {
-            color:$secondaryColor;
+            color: $secondary-color;
         }
         .pagesTag:active {
-            color: $colorTag;
-            text-shadow: $colorShadow;
+            color: $color-tag;
+            text-shadow: $color-shadow;
         } 
 }
 

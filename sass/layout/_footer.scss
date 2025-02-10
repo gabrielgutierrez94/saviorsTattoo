@@ -1,10 +1,10 @@
 footer {
-    background-color: $bgColor;    
+    background-color: $bg-color;    
 }
 
 .subtituloFooter {
     display: flex;
-    color: $primaryColor;
+    color: $primary-color;
     text-align: left;
     font-size: 30px;
     font-family: 'Maharlika', sans-serif;
@@ -19,17 +19,17 @@ footer {
         .contactList1 {
             display: flex;
             text-transform: uppercase; 
-            color: $primaryColor;
+            color: $primary-color;
             padding: 20px;
         }
         .contactList2 {
             display: flex;
-            color: $textColor2;
+            color: $text-color-2;
             padding: 20px;
         }
         .igLink {
             text-decoration: none;
-            Color: $textColor2;
+            Color: $text-color-2;
         }
         .list {
             list-style: none;
@@ -39,5 +39,5 @@ footer {
 #copySaviors {
     text-align: right;
     font-size: 20px;
-    color: #E51B88;
+    color: $primary-color;
 }

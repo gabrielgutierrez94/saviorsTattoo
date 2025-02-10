@@ -1,20 +1,18 @@
-/* base */
-@use "./sass/base/reset";
-
 /* utilities */
-@use "./sass/utilities/variables";
-@use "./sass/utilities/mixins";
+@use "./utilities/mixins";
+@use "./utilities/variables";
+
+
+/* base */
+@use "./base/reset";
 
 /* layout */
-@use "./sass/layout/header";
-@use "./sass/layout/titulos";
-@use "./sass/layout/bgcolor";
-@use "./sass/layout/home";
-@use "./sass/layout/nosotros";
-@use "./sass/layout/trabajos";
-@use "./sass/layout/turnos";
-@use "./sass/layout/cuidados";
-@use "./sass/layout/footer";
-
-/* componentes */
-@use "./sass/componentes/cards";
+@use "./layout/header" as *;
+@use "./layout/bgcolor";
+@use "./layout/titulos";
+@use "./layout/home";
+@use "./layout/nosotros";
+@use "./layout/trabajos";
+@use "./layout/turnos";
+@use "./layout/cuidados";
+@use "./layout/footer";
