@@ -1,13 +1,12 @@
 /* utilities */
-@use "./utilities/mixins";
 @use "./utilities/variables";
-
+@use "./utilities/mixins";
 
 /* base */
 @use "./base/reset";
 
 /* layout */
-@use "./layout/header" as *;
+@use "./layout/header";
 @use "./layout/bgcolor";
 @use "./layout/titulos";
 @use "./layout/home";
