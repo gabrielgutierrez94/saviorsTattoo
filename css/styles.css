@@ -359,6 +359,11 @@ footer {
     padding: 20px;
 }
 
+.wppLink {
+    text-decoration: none;
+    Color: white
+}
+
 .igLink {
     text-decoration: none;
     Color: white;
