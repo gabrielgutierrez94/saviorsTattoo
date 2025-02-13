@@ -30,6 +30,6 @@ h2{
 }
 
 #backHome:hover {
-    text-shadow: 0 0 50px $color-shadow;
+    text-shadow: 0 0 50px variables.$color-shadow;
     color:$color-shadow;
 }

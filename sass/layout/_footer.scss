@@ -1,5 +1,5 @@
 footer {
-    background-color: $bg-color;    
+    background-color: variables.$bg-color;    
 }
 
 .subtituloFooter {
@@ -24,12 +24,12 @@ footer {
         }
         .contactList2 {
             display: flex;
-            color: $text-color-2;
+            color: variables.$text-color-2;
             padding: 20px;
         }
         .igLink {
             text-decoration: none;
-            Color: $text-color-2;
+            Color: variables.$text-color-2;
         }
         .list {
             list-style: none;

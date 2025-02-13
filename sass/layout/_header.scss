@@ -11,7 +11,7 @@
 
         .pagesTag:hover {
             color: variables.$secondary-color;
-            text-shadow: 0 0 40px $color-shadow;
+            text-shadow: 0 0 40px variables.$color-shadow;
         }
         .pagesTag:visited {
             color: variables.$secondary-color;
