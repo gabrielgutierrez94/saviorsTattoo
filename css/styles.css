@@ -66,8 +66,15 @@ h2{
 
 .logoHeader {
     display: flex;
-    float: left;    
+    float: left;  
+    transition-duration: 1s;  
 }
+
+.logoHeader:hover {
+    transform: rotate(45deg);
+    
+}
+    
 
 /* MAIN */
 
@@ -181,6 +188,10 @@ select:focus {
     color: #ffffff;
 }
 
+.instaLink:hover {
+    text-shadow: 0 0 50px white;
+}
+
 .instaText {
     padding: 50px;
     margin-top: 50px;
@@ -198,6 +209,16 @@ select:focus {
     margin-block: 20px;
     padding: 25px;
     justify-content: space-between;
+    
+}
+
+img {
+    transition-duration: 1s;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px white;
 }
 
 .cajaTrabajos {
