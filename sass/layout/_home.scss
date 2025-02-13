@@ -23,8 +23,21 @@ p {
     justify-content: space-between;
 }
 
+img {
+    transition-duration: 1s;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px white;
+}
+
 .instaLink {
     color: $text-color-2;
+}
+
+.instaLink:hover {
+    text-shadow: 0 0 50px white;
 }
 
 .instaText {

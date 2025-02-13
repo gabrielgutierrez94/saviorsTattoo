@@ -1,8 +1,6 @@
-@use "./utilities/variables";
-
 .pagesHeader {
     display: flex;
-    color: $primary-color;
+    color: variables.$primary-color;
     border-radius: 10px;
     padding: 10px 20px;
     justify-content: right;
@@ -12,15 +10,15 @@
     gap: 25px;
 
         .pagesTag:hover {
-            color: $secondary-color;
+            color: variables.$secondary-color;
             text-shadow: 0 0 40px $color-shadow;
         }
         .pagesTag:visited {
-            color: $secondary-color;
+            color: variables.$secondary-color;
         }
         .pagesTag:active {
-            color: $color-tag;
-            text-shadow: $color-shadow;
+            color: variables.$color-tag;
+            text-shadow: variables.$color-shadow;
         } 
 }
 
@@ -34,5 +32,10 @@
 
 .logoHeader {
     display: flex;
-    float: left;    
+    float: left;  
+    transition-duration: 1s;  
+}
+
+.logoHeader:hover {
+    transform: rotate(45deg); 
 }
