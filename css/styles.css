@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 img, svg, video{
@@ -19,7 +18,6 @@ img {
 
 header {
     background-color: #000000;
-
 }
 
 h2{
@@ -41,6 +39,7 @@ h2{
     font-size: 20px;
     text-transform: uppercase;
     gap: 25px;
+    list-style: none;
 }
 
 .pagesTag:hover {
@@ -73,10 +72,8 @@ h2{
 
 .logoHeader:hover {
     transform: rotate(45deg);
-    
 }
     
-
 /* MAIN */
 
 h1 {
@@ -85,7 +82,6 @@ h1 {
     text-align:center;
     text-transform: uppercase;
     font-family: 'Maharlika', sans-serif;
-
 }
 
 p {
@@ -138,7 +134,6 @@ span {
     padding: 10px;
     margin-bottom: 100px;
     border-radius: 8px;
-    
 }
 
 .paperContainer {
@@ -210,7 +205,6 @@ select:focus {
     margin-block: 20px;
     padding: 25px;
     justify-content: space-between;
-    
 }
 
 img {
@@ -272,51 +266,6 @@ img {
     margin-inline: 620px;
 }
 
-.gridContainer {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 15vh 25vh auto 15vh;
-    grid-template-areas: 
-    "header"
-    "main"
-    "main"
-    "Footer";
-}
-
-.gridItem {
-    background-color: black;
-    border: 1px solid white
-}
-
-.gridMain {
-    background-color: #E51B88;
-}
-
-.logoHeaderGrid {
-    display: flex;
-    float:left;
-    height: 90px;
-    width: 90px;
-}
-
-.logoPrincipalGrid {
-    display: grid;
-    height: 90px;
-    width: 200px;
-    justify-content: center;
-}
-
-.videoHomeGrid {
-    display: flex;
-    justify-content: center;
-    height: 25vh;
-}
-
-.row > * {
-    border: 1px solid;
-}
-
 /* FOOTER */
 
 footer {
@@ -371,20 +320,88 @@ footer {
     list-style: none;
 }
 
-@media (min-width: 320px) {
+/* MEDIA QUERIES */
+
+@media (min-width: 1620px) {
     body {
         background-color: #E51B88;
     }
 
+    .blockImagenes {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1520px) {
+    
+       
+}
+
+@media (min-width: 1220px) {
+    body {
+        background-color: #E51B88;
+    }
+}
+
+@media (min-width: 1150px) {
+    body {
+        background-color: #E51B88;
+    }
     header {
         display: grid;
         background-color: #000000;
         grid-area: header;
-        justify-self:auto;
+        justify-self:baseline;
+    }
+}
 
-        section {
-            justify-content: center;
-        }
+@media (min-width: 900px) {
+    body {
+        background-color: #E51B88;
+    }
+}
+
+@media (min-width: 700px) {
+    body {
+        background-color: #E51B88;
+    }
+}
+
+@media (min-width: 481px) {
+    body {
+        background-color: #E51B88;
     }
     
 }
+
+@media (max-width: 480px) {
+    body {
+        background-color: #E51B88;
+    }
+    header {
+        display: grid;
+        background-color: #000000;
+        grid-area: header;
+        justify-self:baseline;
+        height: 70vh;
+        width: 300vw; 
+    } 
+    .logoHeader {
+        display: flex;
+        float: left;
+        height: 50vh;
+        width: 50vh;
+    }
+    .logoPrincipal {
+        display: grid;
+        height: 40vh;
+        width: 80vh;
+        justify-content: center;
+        margin-inline: 50px;
+    }
+    .pagesHeader {
+        color: #E51B88;
+        justify-content: right;
+    }
+}
+    
