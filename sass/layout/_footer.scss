@@ -1,5 +1,7 @@
+@use "../utilities/variables" as *;
+
 footer {
-    background-color: variables.$bg-color;    
+    background-color: $bg-color;    
 }
 
 .subtituloFooter {
@@ -24,18 +26,18 @@ footer {
         }
         .contactList2 {
             display: flex;
-            color: variables.$text-color-2;
+            color: $text-color-2;
             padding: 20px;
         }
 
         .wppLink {
             text-decoration: none;
-            Color: variables.$text-color-2;
+            Color: $text-color-2;
         }
 
         .igLink {
             text-decoration: none;
-            Color: variables.$text-color-2;
+            Color: $text-color-2;
         }
         .list {
             list-style: none;

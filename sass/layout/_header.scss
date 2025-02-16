@@ -1,6 +1,14 @@
+@use "../utilities/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .pagesHeader {
     display: flex;
-    color: variables.$primary-color;
+    color: $primary-color;
     border-radius: 10px;
     padding: 10px 20px;
     justify-content: right;
@@ -9,17 +17,17 @@
     text-transform: uppercase;
     gap: 25px;
 
-        .pagesTag:hover {
-            color: variables.$secondary-color;
-            text-shadow: 0 0 40px variables.$color-shadow;
-        }
-        .pagesTag:visited {
-            color: variables.$secondary-color;
-        }
-        .pagesTag:active {
-            color: variables.$color-tag;
-            text-shadow: variables.$color-shadow;
-        } 
+    .pagesTag:hover {
+        color: $secondary-color;
+        text-shadow: 0 0 40px $color-shadow;
+    }
+    .pagesTag:visited {
+        color: $secondary-color;
+    }
+    .pagesTag:active {
+        color: $color-tag;
+        text-shadow: $color-shadow;
+    } 
 }
 
 .logoPrincipal {

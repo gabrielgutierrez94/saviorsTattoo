@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+
 .formContainer {
     position: relative;
     width: 950px;
@@ -27,12 +29,12 @@
             padding: 15px;
         }
         input:focus {
-            background-color: variables.$bg-color;
-            color: variables.$primary-color;
+            background-color: $bg-color;
+            color: $primary-color;
         }
         select:focus {
-            background-color: variables.$bg-color;
-            color: variables.$primary-color;
+            background-color: $bg-color;
+            color: $primary-color;
         }
     }
 .paperContainer {

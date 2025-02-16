@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+
 .titulosPaginas {
     padding: 50px;
 }
@@ -10,7 +12,7 @@
     height: 1000px;
     width: 800px;
     margin: 50px;
-    background-color: variables.$primary-color;
+    background-color: $primary-color;
     
     .careCards {
         display: flex;

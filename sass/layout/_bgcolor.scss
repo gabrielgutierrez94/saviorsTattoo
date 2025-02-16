@@ -1,7 +1,9 @@
+@use "../utilities/variables" as *;
+
 header {
-    background-color: variables.$bg-color;
+    background-color: $bg-color;
 }
 
 main {
-    background-color: variables.$primary-color;
+    background-color: $primary-color;
 }

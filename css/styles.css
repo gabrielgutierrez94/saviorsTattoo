@@ -1,18 +1,302 @@
-/* Error: Undefined variable.
- *    ,
- * 13 |             color: $secondary-color;
- *    |                    ^^^^^^^^^^^^^^^^
- *    '
- *   sass\layout\_header.scss 13:20  @use
- *   sass\styles.scss 9:1            root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 13 \2502              color: $secondary-color;\d\a    \2502                     ^^^^^^^^^^^^^^^^\a    \2575 \a   sass\\layout\\_header.scss 13:20  @use\a   sass\\styles.scss 9:1            root stylesheet";
+/* utilities */
+/* base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+img, svg, video {
+  max-width: 100%;
+  display: inline-block;
+}
+
+img {
+  width: 290px;
+}
+
+/* layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pagesHeader {
+  display: flex;
+  color: #E51B88;
+  border-radius: 10px;
+  padding: 10px 20px;
+  justify-content: right;
+  font-family: "Noto Serif", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  gap: 25px;
+}
+.pagesHeader .pagesTag:hover {
+  color: #ed3698;
+  text-shadow: 0 0 40px #ffffff;
+}
+.pagesHeader .pagesTag:visited {
+  color: #ed3698;
+}
+.pagesHeader .pagesTag:active {
+  color: #ff0000;
+  text-shadow: #ffffff;
+}
+
+.logoPrincipal {
+  display: flex;
+  height: 350px;
+  width: 900px;
+  justify-content: center;
+  margin-inline: 310px;
+}
+
+.logoHeader {
+  display: flex;
+  float: left;
+  transition-duration: 1s;
+}
+
+.logoHeader:hover {
+  transform: rotate(45deg);
+}
+
+header {
+  background-color: #000000;
+}
+
+main {
+  background-color: #E51B88;
+}
+
+h1 {
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Maharlika", sans-serif;
+}
+
+h2 {
+  color: #000000;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Noto Serif", sans-serif;
+}
+
+.titulosPaginas {
+  padding: 50px;
+}
+
+#backHome {
+  display: flex;
+  color: #000000;
+  font-size: 30px;
+  text-decoration: underline;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 50px;
+}
+
+#backHome:hover {
+  text-shadow: 0 0 50px #ffffff;
+  color: #ffffff;
+}
+
+.videoHome {
+  display: flex;
+  justify-content: center;
+  padding-block: 50px;
+  margin-inline: 300px;
+}
+
+p {
+  color: #000000;
+  font-family: "Noto Serif", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+p span {
+  color: #ffffff;
+}
+
+.blockImagenes {
+  display: block;
+  margin-block: 20px;
+  padding: 25px;
+  justify-content: space-between;
+}
+
+img {
+  transition-duration: 1s;
+}
+
+.img1:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #ffffff;
+}
+
+.instaLink {
+  color: #ffffff;
+}
+
+.instaLink:hover {
+  text-shadow: 0 0 50px #ffffff;
+}
+
+.instaText {
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.nombreTexto {
+  font-family: "Maharlika", sans-serif;
+  text-decoration: underline;
+}
+
+.cajaTrabajos {
+  display: block;
+  margin-block: 50px;
+  padding: 25px;
+  justify-content: space-between;
+}
+
+.cajaTrabajos {
+  display: block;
+  margin-block: 50px;
+  padding: 25px;
+  justify-content: space-between;
+}
+
+.formContainer {
+  position: relative;
+  width: 950px;
+  height: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  margin-bottom: 100px;
+  border-radius: 8px;
+}
+.formContainer form {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  height: 700px;
+  margin: 50px;
+  padding-block-end: 250px;
+}
+.formContainer form form label {
+  align-content: center;
+}
+.formContainer form form input {
+  padding: 15px;
+}
+.formContainer form form select {
+  padding: 15px;
+}
+.formContainer form input:focus {
+  background-color: #000000;
+  color: #E51B88;
+}
+.formContainer form select:focus {
+  background-color: #000000;
+  color: #E51B88;
+}
+.formContainer .paperContainer {
+  display: flex;
+  width: 950px;
+  height: 600px;
+}
+
+.titulosPaginas {
+  padding: 50px;
+}
+
+.cardContainer {
+  position: relative;
+  display: block;
+  justify-content: center;
+  justify-self: center;
+  height: 1000px;
+  width: 800px;
+  margin: 50px;
+  background-color: #E51B88;
+}
+.cardContainer .careCards {
+  display: flex;
+  justify-content: space-around;
+  height: 333px;
+  width: 800px;
+}
+.cardContainer .careCards .paperCard {
+  display: flex;
+  height: 333px;
+  width: 800px;
+}
+.cardContainer .careCards .cardText {
+  position: absolute;
+  margin-top: 10%;
+  font-size: 30px;
+  padding: 10px;
+}
+.cardContainer .careHand {
+  display: flex;
+  justify-content: center;
+  padding-block: 50px;
+  margin-inline: 620px;
+}
+
+footer {
+  background-color: #000000;
+}
+
+.subtituloFooter {
+  display: flex;
+  color: #E51B88;
+  text-align: left;
+  font-size: 30px;
+  font-family: "Maharlika", sans-serif;
+  padding: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.contactContainer .contactList1 {
+  display: flex;
+  text-transform: uppercase;
+  color: #E51B88;
+  padding: 20px;
+}
+.contactContainer .contactList2 {
+  display: flex;
+  color: #ffffff;
+  padding: 20px;
+}
+.contactContainer .wppLink {
+  text-decoration: none;
+  Color: #ffffff;
+}
+.contactContainer .igLink {
+  text-decoration: none;
+  Color: #ffffff;
+}
+.contactContainer .list {
+  list-style: none;
+}
+
+#copySaviors {
+  text-align: right;
+  font-size: 20px;
+  color: #E51B88;
+}
+
+/*# sourceMappingURL=styles.css.map */
