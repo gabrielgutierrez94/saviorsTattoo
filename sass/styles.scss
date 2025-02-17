@@ -15,3 +15,7 @@
 @use "./layout/turnos";
 @use "./layout/cuidados";
 @use "./layout/footer";
+
+/* media queries */
+
+@use "./layout/mq/media480px";
