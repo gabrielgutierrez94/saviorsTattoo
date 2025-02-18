@@ -323,6 +323,13 @@ footer {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 320px) {
+    
+
+
+
+}
+
 @media (max-width: 480px) {
     body {
         background-color: #E51B88;
@@ -380,9 +387,7 @@ footer {
             display: block;
             margin-left: 2.188rem;
             margin-top: 0.625rem;
-            margin-bottom: 0.625rem;
-            
-            
+            margin-bottom: 0.625rem; 
         }
 
         footer {
