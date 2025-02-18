@@ -323,13 +323,6 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 320px) {
-    
-
-
-
-}
-
 @media (max-width: 480px) {
     body {
         background-color: #E51B88;
@@ -393,5 +386,109 @@ footer {
         footer {
             width: 30.625rem;
         }
+    }
+}
+
+/* nosotros */
+
+@media (max-width: 480px) {
+    .cajaTrabajos {
+        margin-left: 2.188rem;
+        margin-bottom: 0.625rem;
+        margin-top: 0.625rem;
+    }
+
+    #backHome {
+        font-size: 1.50rem;
+    }
+    
+    p {
+        padding: 1.25rem;
+    }
+}
+
+/* turnos */
+
+@media (max-width: 480px) {
+    .formContainer {
+        position: relative;
+        width: 28.125rem;
+        height: 28.75rem;
+        margin: 1.25rem auto;
+        padding: 0.625rem;
+        margin-bottom: 2rem;
+
+        .paperContainer {
+            display: flex;
+            width: 28.125rem;
+            height: 28.75rem;
+        }
+        
+        form {
+            position: absolute;
+            flex-direction: column;
+            justify-content: center;
+            width: 20rem;
+            height: 10rem;
+            padding-block-end: 0.75rem;
+            margin-top: 8rem;
+        }
+        
+        form label {
+            align-content: center;
+        }
+        
+        form input {
+            padding: 0.75rem;
+        }
+        
+        form select {
+            padding: 0.75rem;
+        }
+    }
+}
+
+/* cuidados */
+
+@media (max-width: 480px) {
+
+    .cardContainer {
+        position: relative;
+        display: block;
+        justify-content: center;
+        justify-self: center;
+        height: 13rem;
+        width: 30rem;
+        margin: 50px;
+        background-color:#E51B88;
+
+            .careCards {
+                display: flex;
+                justify-content: center;
+                height: 11.125rem;
+                width: 27.5rem;
+                margin-left: 1.125rem;
+            }
+        
+            .paperCard {
+                display: flex;
+                height: 11.125rem;
+                width: 27.5rem;
+
+            }
+        
+            .cardText {
+                position:absolute;
+                width: 20rem;
+                margin-top: 1.875rem;
+                font-size: 1.125rem;
+            }
+    }
+
+    .careHand {
+        display: flex;
+        justify-content: center;
+        margin-left: 9.375rem;
+        margin-top: 20rem;
     }
 }
