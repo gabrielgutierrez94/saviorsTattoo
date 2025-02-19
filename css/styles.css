@@ -247,7 +247,7 @@ img {
 }
 .cardContainer .careHand {
   display: flex;
-  justify-content: center;
+  justify-self: center;
   padding-block: 50px;
   margin-inline: 620px;
 }
@@ -409,9 +409,9 @@ footer {
     position: relative;
     display: block;
     justify-content: center;
-    height: 13rem;
+    height: 35.625rem;
     width: 30rem;
-    margin: 50px;
+    margin: 3.125rem;
   }
   .cardContainer .careCards {
     display: flex;
@@ -422,20 +422,19 @@ footer {
   }
   .cardContainer .paperCard {
     display: flex;
-    height: 11.125rem;
     width: 27.5rem;
+    height: 11.125rem !important;
   }
   .cardContainer .cardText {
     position: absolute;
     width: 20rem;
-    margin-top: 1.875rem;
-    font-size: 1.125rem;
+    margin-top: 1.75rem;
+    font-size: 1.125rem !important;
   }
   .careHand {
     display: flex;
     justify-content: center;
     margin-left: 9.375rem;
-    margin-top: 20rem;
   }
 }
 
