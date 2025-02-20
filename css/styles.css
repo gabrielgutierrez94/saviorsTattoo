@@ -1,494 +1,829 @@
 /* reset de css */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img, svg, video{
-	max-width: 100%;
-	display: inline-block;
+img,
+svg,
+video {
+  max-width: 100%;
+  display: inline-block;
 }
 
 img {
-    width: 290px;
+  width: 290px;
 }
 
 /* HEADER */
 
 header {
-    background-color: #000000;
-    height: 400px;
+  background-color: #000000;
+  height: 400px;
 }
 
-h2{
-    color: #000000;
-    font-weight: 300;
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Noto Serif', sans-serif;
+h2 {
+  color: #000000;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Noto Serif", sans-serif;
 }
 
 .pagesHeader {
-    display: flex;
-    color: #E51B88;
-    border-radius: 10px;
-    padding: 10px 20px;
-    justify-content: right;
-    font-family: 'Noto Serif', sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    gap: 25px;
-    list-style: none;
+  display: flex;
+  color: #e51b88;
+  border-radius: 10px;
+  padding: 10px 20px;
+  justify-content: right;
+  font-family: "Noto Serif", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  gap: 25px;
+  list-style: none;
 }
 
 .pagesTag:hover {
-    color:#ed3698;
-    text-shadow: 0 0 40px white;
+  color: #ed3698;
+  text-shadow: 0 0 40px white;
 }
 
 .pagesTag:visited {
-    color:#ed3698;
+  color: #ed3698;
 }
 
 .pagesTag:active {
-    color: red;
-    text-shadow: #ffffff;
+  color: red;
+  text-shadow: #ffffff;
 }
 
 .logoPrincipal {
-    display: flex;
-    height: 350px;
-    width: 900px;
-    justify-content: center;
-    margin-inline: 310px;
+  display: flex;
+  height: 350px;
+  width: 900px;
+  justify-content: center;
+  margin-inline: 310px;
 }
 
 .logoHeader {
-    display: flex;
-    float: left;  
-    transition-duration: 1s;  
+  display: flex;
+  float: left;
+  transition-duration: 1s;
 }
 
 .logoHeader:hover {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-    
+
 /* MAIN */
 
 h1 {
-    color: #000000;
-    font-size: 50px;
-    text-align:center;
-    text-transform: uppercase;
-    font-family: 'Maharlika', sans-serif;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Maharlika", sans-serif;
 }
 
 p {
-    color: #000000;
-    font-family: 'Noto Serif', sans-serif;
-    font-size: 25px;
-    text-align: center;
+  color: #000000;
+  font-family: "Noto Serif", sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
 
 .nombreTexto {
-    font-family: 'Maharlika', sans-serif;
-    text-decoration: underline;
+  font-family: "Maharlika", sans-serif;
+  text-decoration: underline;
 }
 
 #backHome {
-    display: flex;
-    color: #000000;
-    font-size: 30px;
-    text-decoration: underline;
-    justify-content: center;
-    text-transform: uppercase;
-    padding: 50px;
+  display: flex;
+  color: #000000;
+  font-size: 30px;
+  text-decoration: underline;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 50px;
 }
 
 #backHome:hover {
-    text-shadow: 0 0 50px white;
-    color:white;
+  text-shadow: 0 0 50px white;
+  color: white;
 }
 
 ol {
-    color: #000000;
-    font-size: 20px;
-    font-family: 'Noto Serif', sans-serif;
-    text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Noto Serif", sans-serif;
+  text-align: center;
 }
 
 main {
-    background-color: #E51B88;
+  background-color: #e51b88;
 }
 
 span {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .formContainer {
-    position: relative;
-    width: 950px;
-    height:600px;
-    margin: 20px auto;
-    padding: 10px;
-    margin-bottom: 100px;
-    border-radius: 8px;
+  position: relative;
+  width: 950px;
+  height: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  margin-bottom: 100px;
+  border-radius: 8px;
 }
 
 .paperContainer {
-    display: flex;
-    width: 950px;
-    height: 600px;
+  display: flex;
+  width: 950px;
+  height: 600px;
 }
 
 form {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    justify-content: center;
-    width: 800px;
-    height: 700px;
-    margin: 50px;
-    padding-block-end: 250px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  height: 700px;
+  margin: 50px;
+  padding-block-end: 250px;
 }
 
 form label {
-    align-content: center;
+  align-content: center;
 }
 
 form input {
-    padding: 15px;
+  padding: 15px;
 }
 
 form select {
-    padding: 15px;
+  padding: 15px;
 }
 
 input:focus {
-    background-color: #000000;
-    color: #E51B88;
+  background-color: #000000;
+  color: #e51b88;
 }
 
 select:focus {
-    background-color: #000000;
-    color: #E51B88;
+  background-color: #000000;
+  color: #e51b88;
 }
 
 .cuidados {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .instaLink {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .instaLink:hover {
-    text-shadow: 0 0 50px white;
+  text-shadow: 0 0 50px white;
 }
 
 .instaText {
-    padding: 50px;
-    margin-top: 50px;
+  padding: 50px;
+  margin-top: 50px;
 }
 
 .videoHome {
-    display: flex;
-    justify-content: center;
-    padding-block: 50px;
-    margin-inline: 300px;
+  display: flex;
+  justify-content: center;
+  padding-block: 50px;
+  margin-inline: 300px;
 }
 
 .blockImagenes {
-    display: block;
-    margin-block: 20px;
-    padding: 25px;
-    justify-content: space-between;
+  display: block;
+  margin-block: 20px;
+  padding: 25px;
+  justify-content: space-between;
 }
 
 img {
-    transition-duration: 1s;
+  transition-duration: 1s;
 }
 
 .img1:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 30px white;
+  transform: scale(1.1);
+  box-shadow: 0 0 30px white;
 }
 
 .cajaTrabajos {
-    display: block;
-    margin-block: 50px;
-    padding: 25px;
-    justify-content: space-between;
+  display: block;
+  margin-block: 50px;
+  padding: 25px;
+  justify-content: space-between;
 }
 
 .titulosPaginas {
-    padding: 50px;
+  padding: 50px;
 }
 
 .cardContainer {
-    position: relative;
-    display: block;
-    justify-content: center;
-    justify-self: center;
-    height: 1000px;
-    width: 800px;
-    margin: 50px;
-    background-color:#E51B88;
+  position: relative;
+  display: block;
+  justify-content: center;
+  justify-self: center;
+  height: 1000px;
+  width: 800px;
+  margin: 50px;
+  background-color: #e51b88;
 }
 
 .careCards {
-    display: flex;
-    justify-content: space-around;
-    height: 333px;
-    width: 800px;
-    
+  display: flex;
+  justify-content: space-around;
+  height: 333px;
+  width: 800px;
 }
 
 .paperCard {
-    display: flex;
-    height: 333px;
-    width: 800px;
+  display: flex;
+  height: 333px;
+  width: 800px;
 }
 
 .cardText {
-    position: absolute;
-    margin-top: 10%;
-    font-size: 30px;
-    padding: 10px;
+  position: absolute;
+  margin-top: 10%;
+  font-size: 30px;
+  padding: 10px;
 }
 
 .careHand {
-    display: flex;
-    justify-content: center;
-    padding-block: 50px;
-    margin-inline: 620px;
+  display: flex;
+  justify-content: center;
+  padding-block: 50px;
+  margin-inline: 620px;
 }
 
 /* FOOTER */
 
 footer {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .subtituloFooter {
-    display: flex;
-    color: #E51B88;
-    text-align: left;
-    font-size: 30px;
-    font-family: 'Maharlika', sans-serif;
-    padding: 20px;
+  display: flex;
+  color: #e51b88;
+  text-align: left;
+  font-size: 30px;
+  font-family: "Maharlika", sans-serif;
+  padding: 20px;
 }
 
 #copySaviors {
-    text-align: right;
-    font-size: 20px;
-    color: #E51B88;
+  text-align: right;
+  font-size: 20px;
+  color: #e51b88;
 }
 
 .contactContainer {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .contactList1 {
-    display: flex;
-    text-transform: uppercase; 
-    color: #E51B88;
-    padding: 20px;
+  display: flex;
+  text-transform: uppercase;
+  color: #e51b88;
+  padding: 20px;
 }
 
 .contactList2 {
-    display: flex;
-    color: white;
-    padding: 20px;
+  display: flex;
+  color: white;
+  padding: 20px;
 }
 
 .wppLink {
-    text-decoration: none;
-    Color: white
+  text-decoration: none;
+  color: white;
 }
 
 .igLink {
-    text-decoration: none;
-    Color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 /* MEDIA QUERIES */
 
 @media (max-width: 480px) {
-    body {
-        background-color: #E51B88;
+  body {
+    background-color: #e51b88;
+    width: 30rem;
+
+    header {
+      height: 11.25rem;
+      width: 30.625rem;
+
+      .logoHeader {
+        width: 7.5rem;
+        height: 7.5rem;
+      }
+
+      .logoPrincipal {
+        width: 20rem;
+        height: 8.75rem;
+        margin-left: 9.375rem;
+      }
+
+      .pagesHeader {
+        justify-content: center;
         width: 30rem;
-
-            header {
-                height: 11.25rem;
-                width: 30.625rem;
-
-                .logoHeader {
-                    width: 7.5rem;
-                    height: 7.5rem;
-                }
-
-                .logoPrincipal {
-                    width: 20rem;
-                    height: 8.75rem;
-                    margin-left: 9.375rem;
-                }
-
-                .pagesHeader {
-                    justify-content: center;
-                    width: 30rem;
-                    height: 2.5rem;
-                    margin-left: 0.625rem;
-                    font-size: 1rem;
-                    gap: 0.625rem;
-                }
-            }
-
-        .videoHome {
-            display: flex;
-            width: 25rem;
-            margin-left: 1.875rem;
-        }
-
-        p {
-            font-size: 1.125rem;
-        }
-
-        h1 {
-            font-size: 1.50rem;
-        }
-
-        h2 {
-            font-size: 1.50rem;
-        }
-
-        img {
-            width: 11.25rem;
-            justify-content: center;
-        }
-
-        .blockImagenes {
-            display: block;
-            margin-left: 2.188rem;
-            margin-top: 0.625rem;
-            margin-bottom: 0.625rem; 
-        }
-
-        footer {
-            width: 30.625rem;
-        }
+        height: 2.5rem;
+        margin-left: 0.625rem;
+        font-size: 1rem;
+        gap: 0.625rem;
+      }
     }
+
+    .videoHome {
+      display: flex;
+      width: 25rem;
+      margin-left: 1.875rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    img {
+      width: 11.25rem;
+      justify-content: center;
+    }
+
+    .blockImagenes {
+      display: block;
+      margin-left: 2.188rem;
+      margin-top: 0.625rem;
+      margin-bottom: 0.625rem;
+    }
+
+    footer {
+      width: 30.625rem;
+    }
+  }
 }
 
 /* nosotros */
 
 @media (max-width: 480px) {
-    .cajaTrabajos {
-        margin-left: 2.188rem;
-        margin-bottom: 0.625rem;
-        margin-top: 0.625rem;
-    }
+  .cajaTrabajos {
+    margin-left: 2.188rem;
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+  }
 
-    #backHome {
-        font-size: 1.50rem;
-    }
-    
-    p {
-        padding: 1.25rem;
-    }
+  #backHome {
+    font-size: 1.5rem;
+  }
+
+  p {
+    padding: 1.25rem;
+  }
 }
 
 /* turnos */
 
 @media (max-width: 480px) {
-    .formContainer {
-        position: relative;
-        width: 28.125rem;
-        height: 28.75rem;
-        margin: 1.25rem auto;
-        padding: 0.625rem;
-        margin-bottom: 2rem;
+  .formContainer {
+    position: relative;
+    width: 28.125rem;
+    height: 28.75rem;
+    margin: 1.25rem auto;
+    padding: 0.625rem;
+    margin-bottom: 2rem;
 
-        .paperContainer {
-            display: flex;
-            width: 28.125rem;
-            height: 28.75rem;
-        }
-        
-        form {
-            position: absolute;
-            flex-direction: column;
-            justify-content: center;
-            width: 20rem;
-            height: 10rem;
-            padding-block-end: 0.75rem;
-            margin-top: 8rem;
-        }
-        
-        form label {
-            align-content: center;
-        }
-        
-        form input {
-            padding: 0.75rem;
-        }
-        
-        form select {
-            padding: 0.75rem;
-        }
+    .paperContainer {
+      display: flex;
+      width: 28.125rem;
+      height: 28.75rem;
     }
+
+    form {
+      position: absolute;
+      flex-direction: column;
+      justify-content: center;
+      width: 20rem;
+      height: 10rem;
+      padding-block-end: 0.75rem;
+      margin-top: 8rem;
+    }
+
+    form label {
+      align-content: center;
+    }
+
+    form input {
+      padding: 0.75rem;
+    }
+
+    form select {
+      padding: 0.75rem;
+    }
+  }
 }
 
 /* cuidados */
 
 @media (max-width: 480px) {
+  .cardContainer {
+    position: relative;
+    display: block;
+    justify-content: center;
+    justify-self: center;
+    height: 13rem;
+    width: 30rem;
+    margin: 50px;
+    background-color: #e51b88;
 
+    .careCards {
+      display: flex;
+      justify-content: center;
+      height: 11.125rem;
+      width: 27.5rem;
+      margin-left: 1.125rem;
+    }
+
+    .paperCard {
+      display: flex;
+      height: 11.125rem;
+      width: 27.5rem;
+    }
+
+    .cardText {
+      position: absolute;
+      width: 20rem;
+      margin-top: 1.875rem;
+      font-size: 1.125rem;
+    }
+  }
+
+  .careHand {
+    display: flex;
+    justify-content: center;
+    margin-left: 9.375rem;
+    margin-top: 20rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 636px) {
+  body {
+    background-color: #e51b88;
+    width: 48rem;
+
+    header {
+      height: 15.625rem;
+      width: 48rem;
+
+      .logoHeader {
+        width: 12rem;
+        height: 12rem;
+      }
+
+      .logoPrincipal {
+        width: 30rem;
+        height: 13rem;
+        margin-left: 9.375rem;
+      }
+
+      .pagesHeader {
+        justify-content: center;
+        width: 45rem;
+        height: 3.75rem;
+        margin-left: 1.125rem;
+        font-size: 1.25rem;
+        gap: 1rem;
+      }
+    }
+
+    .videoHome {
+      display: flex;
+      width: 40rem;
+      margin-left: 4rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    img {
+      width: 15.625rem;
+      justify-content: center;
+    }
+
+    .blockImagenes {
+      display: block;
+      margin-left: 6.5rem;
+      margin-top: 0.625rem;
+      margin-bottom: 0.625rem;
+    }
+
+    footer {
+      width: 48rem;
+    }
+  }
+}
+
+/* nosotros */
+
+@media (min-width: 481px) and (max-width: 636px) {
+  .cajaTrabajos {
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+    margin-left: 16rem;
+  }
+
+  #backHome {
+    font-size: 1.5rem;
+  }
+
+  p {
+    padding: 1.25rem;
+  }
+}
+
+/* turnos */
+
+@media (min-width: 481px) and (max-width: 636px) {
+  .formContainer {
+    position: relative;
+    width: 39rem;
+    height: 37.5rem;
+    margin: 1.25rem auto;
+    padding: 0.625rem;
+    margin-bottom: 2rem;
+
+    .paperContainer {
+      display: flex;
+      width: 39rem;
+      height: 37.5rem;
+    }
+
+    form {
+      position: absolute;
+      flex-direction: column;
+      justify-content: center;
+      width: 32rem;
+      height: 30rem;
+      padding-block-end: 15rem;
+      margin-top: 8rem;
+    }
+
+    form label {
+      align-content: center;
+    }
+
+    form input {
+      padding: 1.25rem;
+    }
+
+    form select {
+      padding: 1.25rem;
+    }
+  }
+}
+
+/* cuidados */
+
+@media (min-width: 481px) and (max-width: 636px) {
+  .cardContainer {
+    position: relative;
+    display: block;
+    justify-content: center;
+    justify-self: center;
+    height: 45rem;
+    width: 39rem;
+    margin: 50px;
+    background-color: #e51b88;
+
+    .careCards {
+      display: flex;
+      justify-content: center;
+      height: 15rem;
+      width: 39rem;
+      margin-left: 1.125rem;
+    }
+
+    .paperCard {
+      display: flex;
+      height: 15rem;
+      width: 39rem;
+    }
+
+    .cardText {
+      position: absolute;
+      width: 25rem;
+      margin-top: 1.875rem;
+      font-size: 1.563rem;
+    }
+  }
+
+  .careHand {
+    display: flex;
+    justify-content: center;
+    margin-left: 16.5rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 637px) and (max-width: 768px) {
+  body {
+    background-color: #e51b88;
+    width: 48rem;
+
+    header {
+      height: 16.625rem;
+      width: 48rem;
+
+      .logoHeader {
+        width: 13rem;
+        height: 13rem;
+      }
+
+      .logoPrincipal {
+        width: 31rem;
+        height: 14rem;
+        margin-left: 9.375rem;
+      }
+
+      .pagesHeader {
+        justify-content: center;
+        width: 45rem;
+        height: 3.75rem;
+        margin-left: 1.125rem;
+        font-size: 1.25rem;
+        gap: 1rem;
+      }
+    }
+
+    .videoHome {
+      display: flex;
+      width: 40rem;
+      margin-left: 4rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    img {
+      width: 17rem;
+      justify-content: center;
+    }
+
+    .blockImagenes {
+      display: block;
+      margin-left: 6.5rem;
+      margin-top: 0.625rem;
+      margin-bottom: 0.625rem;
+    }
+
+    footer {
+      width: 48rem;
+    }
+  }
+}
+
+/* nosotros */
+
+@media (min-width: 637px) and (max-width: 768px) {
+  .cajaTrabajos {
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+    margin-left: 5rem;
+  }
+
+  #backHome {
+    font-size: 1.5rem;
+  }
+
+  p {
+    padding: 1.25rem;
+  }
+}
+
+/* turnos */
+
+@media (min-width: 637px) and (max-width: 768px) {
+  .formContainer {
+        position: relative;
+        width: 47.5rem;
+        height: 42rem;
+        margin-left: 2rem;
+        padding: 0.625rem;
+        margin-bottom: 2rem;
+
+    .paperContainer {
+        display: flex;
+        width: 43rem;
+        height: 41rem;
+    }
+
+    form {
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        width: 34rem;
+        height: 30rem;
+        padding-block-end: 15rem;
+        margin-top: 8rem;
+        margin-left: 4rem;
+    }
+
+    form label {
+      align-content: center;
+    }
+
+    form input {
+      padding: 1.25rem;
+    }
+
+    form select {
+      padding: 1.25rem;
+    }
+  }
+}
+
+/* cuidados */
+
+@media (min-width: 637px) and (max-width: 768px) {
     .cardContainer {
         position: relative;
         display: block;
         justify-content: center;
         justify-self: center;
-        height: 13rem;
-        width: 30rem;
-        margin: 50px;
-        background-color:#E51B88;
+        height: 50rem;
+        width: 47.5rem;
+        background-color: #e51b88;
 
-            .careCards {
-                display: flex;
-                justify-content: center;
-                height: 11.125rem;
-                width: 27.5rem;
-                margin-left: 1.125rem;
-            }
-        
-            .paperCard {
-                display: flex;
-                height: 11.125rem;
-                width: 27.5rem;
+       .careCards {
+            display: flex;
+            justify-content: center;
+            height: 16rem;
+            width: 47rem;
+            margin-left: 1.125rem;
+        }
 
-            }
-        
-            .cardText {
-                position:absolute;
-                width: 20rem;
-                margin-top: 1.875rem;
-                font-size: 1.125rem;
-            }
+        .paperCard {
+            display: flex;
+            height: 15rem;
+            width: 39rem;
+        }
+
+        .cardText {
+            position: absolute;
+            width: 25rem;
+            margin-top: 1.875rem;
+            font-size: 1.563rem;
+        }
     }
 
     .careHand {
         display: flex;
         justify-content: center;
-        margin-left: 9.375rem;
-        margin-top: 20rem;
+        margin-left: 16.5rem;
+        margin-top: 2rem;
     }
 }
