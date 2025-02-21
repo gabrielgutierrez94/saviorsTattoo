@@ -1,0 +1,170 @@
+@use "../../utilities/variables" as *;
+
+/* INDEX */
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    body {
+      background-color: $primary-color;
+      width: 75rem;
+  
+      header {
+        height: 25rem;
+        width: 75rem;
+  
+        .logoHeader {
+          width: 17rem;
+          height: 17rem;
+        }
+  
+        .logoPrincipal {
+          width: 55rem;
+          height: 21.25rem;
+          margin-left: 9.375rem;
+        }
+  
+        .pagesHeader {
+          justify-content: center;
+          margin-left: 10rem;
+          font-size: 1.25rem;
+          gap: 1rem;
+        }
+      }
+  
+      .videoHome {
+        display: flex;
+        width: 48rem;
+        margin-left: 13rem;
+      }
+  
+      p {
+        font-size: 1.563rem;
+      }
+  
+      h1 {
+        font-size: 3.125rem;
+      }
+  
+      h2 {
+        font-size: 2.5rem;
+      }
+  
+      img {
+        width: 19rem;
+        justify-content: center;
+      }
+  
+      .blockImagenes {
+        display: block;
+        margin-left: 7rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+      }
+  
+      footer {
+        width: 75rem;
+      }
+    }
+  }
+  
+  /* nosotros */
+  
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .cajaTrabajos {
+      margin-bottom: 0.625rem;
+      margin-top: 0.625rem;
+      margin-left: 9rem;
+    }
+  
+    #backHome {
+      font-size: 1.875rem;
+    }
+  
+    p {
+      padding: 1.25rem;
+    }
+  }
+  
+  /* turnos */
+  
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .formContainer {
+          position: relative;
+          width: 58.125rem;
+          height: 39.75rem;
+          margin-left: 9rem;
+          padding: 0.625rem;
+          margin-bottom: 2rem;
+  
+      .paperContainer {
+          display: flex;
+          width: 58.125rem;
+          height: 39.75rem;
+      }
+  
+      form {
+          position: absolute;
+          flex-direction: column;
+          justify-content: center;
+          width: 47rem;
+          height: 43.75rem;
+          padding-block-end: 25rem;
+          margin-top: 8rem;
+          margin-left: 5rem;
+      }
+  
+      form label {
+        align-content: center;
+      }
+  
+      form input {
+        padding: 1.25rem;
+      }
+  
+      form select {
+        padding: 1.25rem;
+      }
+    }
+  }
+  
+  /* cuidados */
+  
+  @media (min-width: 1025px) and (max-width: 1200px) {
+      .cardContainer {
+          position: relative;
+          display: block;
+          justify-content: center;
+          justify-self: center;
+          height: 60rem;
+          width: 50rem;
+          background-color: #e51b88;
+  
+         .careCards {
+              display: flex;
+              justify-content: center;
+              height: 20rem;
+              width: 50rem;
+              margin-left: 1.125rem;
+          }
+  
+          .paperCard {
+              display: flex;
+              height: 20rem;
+              width: 50rem;
+          }
+  
+          .cardText {
+              position: absolute;
+              width: 40rem;
+              margin-top: 3rem;
+              font-size: 1.875rem;
+          }
+      }
+  
+      .careHand {
+          display: flex;
+          justify-content: center;
+          margin-left: 28rem;
+          margin-top: 2rem;
+      }
+  }
+  
