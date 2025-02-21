@@ -2,7 +2,7 @@
 
 /* INDEX */
 
-@media (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
     body {
         background-color: $primary-color;
         width: 30rem;
@@ -70,7 +70,7 @@
 
 /* nosotros */
 
-@media (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
     .cajaTrabajos {
         margin-left: 2.188rem;
         margin-bottom: 0.625rem;
@@ -88,7 +88,7 @@
 
 /* turnos */
 
-@media (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
     .formContainer {
         position: relative;
         width: 28.125rem;
@@ -129,7 +129,7 @@
 
 /* cuidados */
 
-@media (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
 
     .cardContainer {
         position: relative;

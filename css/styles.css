@@ -302,7 +302,7 @@ footer {
 
 /* media queries */
 /* INDEX */
-@media (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
   body {
     background-color: #E51B88;
     width: 30rem;
@@ -357,7 +357,7 @@ footer {
   }
 }
 /* nosotros */
-@media (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
   .cajaTrabajos {
     margin-left: 2.188rem;
     margin-bottom: 0.625rem;
@@ -371,7 +371,7 @@ footer {
   }
 }
 /* turnos */
-@media (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
   .formContainer {
     position: relative;
     width: 28.125rem;
@@ -405,7 +405,7 @@ footer {
   }
 }
 /* cuidados */
-@media (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
   .cardContainer {
     position: relative;
     display: block;
@@ -1153,6 +1153,146 @@ footer {
     justify-content: center;
     padding-block: 3.125rem;
     margin-inline: 38.75rem;
+  }
+}
+/* INDEX */
+@media (max-width: 320px) {
+  body {
+    background-color: #E51B88;
+    width: 20rem;
+  }
+  body header {
+    height: 11.25rem;
+    width: 20rem;
+  }
+  body header .logoHeader {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+  body header .logoPrincipal {
+    width: 13rem;
+    height: 6rem;
+    margin-left: 5rem;
+  }
+  body header .pagesHeader {
+    justify-content: center;
+    width: 18rem;
+    height: 1rem;
+    margin-left: 0.625rem;
+    font-size: 0.813rem;
+    gap: 0.313rem;
+    margin-top: 2rem;
+  }
+  body .videoHome {
+    display: flex;
+    width: 18rem;
+    margin-left: 1rem;
+  }
+  body p {
+    font-size: 1rem;
+    margin: 0.625rem;
+  }
+  body h1 {
+    font-size: 1.25rem;
+  }
+  body h2 {
+    font-size: 1.25rem;
+  }
+  body img {
+    width: 7.125rem;
+  }
+  body .blockImagenes {
+    display: block;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  body footer {
+    width: 20rem;
+    height: 16rem;
+  }
+  body footer .list {
+    font-size: 0.813rem;
+  }
+}
+/* nosotros */
+@media (max-width: 320px) {
+  .cajaTrabajos {
+    margin-left: 1rem;
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+  }
+  #backHome {
+    font-size: 1rem;
+  }
+  p {
+    padding: 1.25rem;
+  }
+}
+/* turnos */
+@media (max-width: 320px) {
+  .formContainer {
+    position: relative;
+    width: 18.75rem;
+    height: 22rem;
+    margin: 1rem auto;
+    padding: 0.625rem;
+    margin-bottom: 2rem;
+  }
+  .formContainer .paperContainer {
+    display: flex;
+    width: 18.75rem;
+    height: 22rem;
+  }
+  .formContainer form {
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    width: 14rem;
+    height: 7rem;
+    margin-top: 9.5rem;
+    margin-left: 1.75rem;
+  }
+  .formContainer form label {
+    align-content: left;
+  }
+  .formContainer form input {
+    padding: 0.5rem;
+  }
+  .formContainer form select {
+    padding: 0.5rem;
+  }
+}
+/* cuidados */
+/* cuidados */
+@media (max-width: 320px) {
+  .cardContainer {
+    position: relative;
+    display: block;
+    height: 30rem !important;
+    width: 19rem !important;
+    margin: 3.125px !important;
+  }
+  .cardContainer .careCards {
+    justify-content: center !important;
+    width: 18.5rem !important;
+    height: 10rem !important;
+    margin-left: 0.75rem;
+  }
+  .cardContainer .paperCard {
+    width: 18rem !important;
+    height: 10rem !important;
+  }
+  .cardContainer .cardText {
+    position: absolute !important;
+    width: 18rem !important;
+    font-size: 1rem !important;
+  }
+  .careHand {
+    display: flex;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-top: 5rem;
   }
 }
 
