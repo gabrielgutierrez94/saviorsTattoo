@@ -1,0 +1,30 @@
+@mixin titulos() {
+    color: $text-color-1;
+    font-size: 50px;
+    text-align:center;
+    text-transform: uppercase;
+    font-family: 'Maharlika', sans-serif;
+
+}
+
+@mixin subtitulos($weight) {
+    color: $textColor1;
+    font-weight: $weight;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Noto Serif', sans-serif;
+}
+
+@mixin parrafos() {
+    color: $textColor1;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

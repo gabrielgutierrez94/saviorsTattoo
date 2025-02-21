@@ -1,0 +1,50 @@
+@use "../utilities/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pagesHeader {
+    display: flex;
+    color: $primary-color;
+    border-radius: 10px;
+    padding: 10px 20px;
+    justify-content: right;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    gap: 25px;
+    list-style: none;
+
+    .pagesTag:hover {
+        color: $secondary-color;
+        text-shadow: 0 0 40px $color-shadow;
+    }
+    .pagesTag:visited {
+        color: $secondary-color;
+    }
+    .pagesTag:active {
+        color: $color-tag;
+        text-shadow: $color-shadow;
+    } 
+}
+
+.logoPrincipal {
+    display: flex;
+    height: 350px;
+    width: 900px;
+    justify-content: center;
+    margin-inline: 310px;
+}
+
+.logoHeader {
+    display: flex;
+    float: left;  
+    transition-duration: 1s;  
+}
+
+.logoHeader:hover {
+    transform: rotate(45deg); 
+}

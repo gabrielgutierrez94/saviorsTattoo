@@ -1,0 +1,31 @@
+
+
+/* turnos */
+
+@media (min-width: 1201px) {
+  
+    form label {
+        align-content: center;
+    }
+  
+    form input {
+        padding: 1.25rem;
+    }
+  
+    form select {
+        padding: 1.25rem;
+    }
+}
+
+/* cuidados */
+
+@media (min-width: 1201px) {
+  
+    .careHand {
+        display: flex;
+        justify-content: center;
+        padding-block: 3.125rem;
+        margin-inline: 38.75rem;
+    
+    }
+}

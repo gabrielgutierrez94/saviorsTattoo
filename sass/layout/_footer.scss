@@ -1,0 +1,51 @@
+@use "../utilities/variables" as *;
+
+footer {
+    background-color: $bg-color;    
+}
+
+.subtituloFooter {
+    display: flex;
+    color: $primary-color;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Maharlika', sans-serif;
+    padding: 20px;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+        .contactList1 {
+            display: flex;
+            text-transform: uppercase; 
+            color: $primary-color;
+            padding: 20px;
+        }
+        .contactList2 {
+            display: flex;
+            color: $text-color-2;
+            padding: 20px;
+        }
+
+        .wppLink {
+            text-decoration: none;
+            Color: $text-color-2;
+        }
+
+        .igLink {
+            text-decoration: none;
+            Color: $text-color-2;
+        }
+        .list {
+            list-style: none;
+        }
+}
+
+#copySaviors {
+    text-align: right;
+    font-size: 20px;
+    color: $primary-color;
+}

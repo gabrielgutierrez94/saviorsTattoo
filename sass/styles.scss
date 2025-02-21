@@ -1,0 +1,27 @@
+/* utilities */
+@use "./utilities/variables";
+@use "./utilities/mixins";
+
+/* base */
+@use "./base/reset";
+
+/* layout */
+@use "./layout/header";
+@use "./layout/bgcolor";
+@use "./layout/titulos";
+@use "./layout/home";
+@use "./layout/nosotros";
+@use "./layout/trabajos";
+@use "./layout/turnos";
+@use "./layout/cuidados";
+@use "./layout/footer";
+
+/* media queries */
+
+@use "./layout/mq/media480px";
+@use "./layout/mq/media636px";
+@use "./layout/mq/media768px";
+@use "./layout/mq/media915px";
+@use "./layout/mq/media1024px";
+@use "./layout/mq/media1200px";
+@use "./layout/mq/media1201px";

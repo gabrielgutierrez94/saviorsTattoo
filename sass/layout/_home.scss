@@ -1,0 +1,50 @@
+@use "../utilities/variables" as *;
+
+.videoHome {
+    display: flex;
+    justify-content: center;
+    padding-block: 50px;
+    margin-inline: 300px;
+}
+
+p {
+    color: $text-color-1;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+    span {
+        color: $text-color-2;
+    }
+}
+
+.blockImagenes {
+    display: block;
+    margin-block: 20px;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+img {
+    transition-duration: 1s;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px $color-shadow;
+}
+
+.instaLink {
+    color: $text-color-2;
+}
+
+.instaLink:hover {
+    text-shadow: 0 0 50px $color-shadow;
+}
+
+.instaText {
+    padding: 50px;
+    margin-top: 50px;
+}
+
+
